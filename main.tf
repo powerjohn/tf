@@ -2,8 +2,8 @@ data ibm_resource_group "resource_group" {
   name = "Default"
 }
 
-resource ibm_container_cluster "tfcluster1406" {
-    name            = "tfcluster1406"
+resource ibm_container_cluster "mytfworkspace" {
+    name            = "mytfworkspace"
     datacenter      = "dal10"
     machine_type    = "u2c.2x4"
     hardware        = "shared"
